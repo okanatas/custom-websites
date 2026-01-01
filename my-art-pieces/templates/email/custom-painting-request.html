@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Custom Painting Request</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .container {
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 40px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1f2937;
+      margin-bottom: 10px;
+    }
+    h1 {
+      color: #1f2937;
+      margin: 0 0 20px 0;
+      font-size: 24px;
+    }
+    .info-section {
+      background-color: #f9fafb;
+      border-left: 4px solid #1f2937;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 4px;
+    }
+    .info-label {
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 5px;
+    }
+    .info-value {
+      color: #6b7280;
+      margin-bottom: 15px;
+    }
+    .description-box {
+      background-color: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 15px;
+      margin: 15px 0;
+      color: #374151;
+      white-space: pre-wrap;
+    }
+    .footer {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e7eb;
+      text-align: center;
+      font-size: 12px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">{{brandName}}</div>
+    </div>
+    
+    <h1>New Custom Painting Request</h1>
+    
+    <div class="info-section">
+      <div class="info-label">Name:</div>
+      <div class="info-value">{{name}}</div>
+      
+      <div class="info-label">Email:</div>
+      <div class="info-value">{{email}}</div>
+      
+      <div class="info-label">Painting Type:</div>
+      <div class="info-value">{{paintingType}}</div>
+      
+      <div class="info-label">Size Preference:</div>
+      <div class="info-value">{{size}}</div>
+      
+      <div class="info-label">Deadline:</div>
+      <div class="info-value">{{deadline}}</div>
+    </div>
+    
+    <div>
+      <div class="info-label">Description / Vision:</div>
+      <div class="description-box">{{description}}</div>
+    </div>
+    
+    <div class="footer">
+      <p>This is an automated email from {{brandName}}.</p>
+      <p>&copy; {{year}} {{brandName}}. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+

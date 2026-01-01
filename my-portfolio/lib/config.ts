@@ -35,7 +35,7 @@ function getSMTPConfig(): SMTPConfig {
   const secure = process.env.SMTP_SECURE === 'true' || port === 465;
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_PASSWORD;
-  const brandName = process.env.BRAND_NAME || 'Art Pieces';
+  const brandName = process.env.BRAND_NAME || 'Portfolio';
   const fromName = process.env.SMTP_FROM_NAME || brandName;
   const fromEmail = process.env.SMTP_FROM_EMAIL || user || 'noreply@example.com';
 
@@ -70,7 +70,7 @@ function getSMTPConfig(): SMTPConfig {
  * Get application configuration
  */
 export function getConfig(): AppConfig {
-  const brandName = process.env.BRAND_NAME || 'Art Pieces';
+  const brandName = process.env.BRAND_NAME || 'Portfolio';
   const recipientEmail = process.env.RECIPIENT_EMAIL;
   // Default to true (enabled) if not specified
   const sendConfirmationEmail = process.env.SEND_CONFIRMATION_EMAIL !== 'false';

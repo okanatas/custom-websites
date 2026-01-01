@@ -1,0 +1,5 @@
+# Assets Directory
+
+Place your logos, images, and other static assets here.
+Files in this directory can be accessed at `/assets/filename.ext`
+

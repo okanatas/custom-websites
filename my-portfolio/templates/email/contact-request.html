@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New Custom Painting Request</title>
+  <title>New Contact Form Message</title>
   <style>
     * {
       margin: 0;
@@ -59,7 +59,7 @@
       font-weight: 600;
       color: #374151;
       padding: 12px 16px 12px 0;
-      width: 140px;
+      width: 100px;
       font-size: 14px;
       vertical-align: top;
       border-bottom: 1px solid #e5e7eb;
@@ -76,16 +76,16 @@
     .info-row:last-child .info-value {
       border-bottom: none;
     }
-    .description-section {
+    .message-section {
       margin-top: 24px;
     }
-    .description-label {
+    .message-label {
       font-weight: 600;
       color: #374151;
       font-size: 14px;
       margin-bottom: 8px;
     }
-    .description-box {
+    .message-box {
       background-color: #f9fafb;
       border: 1px solid #e5e7eb;
       border-radius: 6px;
@@ -119,7 +119,7 @@
         padding: 24px 20px;
       }
       .info-label {
-        width: 110px;
+        width: 80px;
         font-size: 13px;
         padding: 10px 12px 10px 0;
       }
@@ -141,7 +141,7 @@
     </div>
     
     <div class="content">
-      <h1>New Custom Painting Request</h1>
+      <h1>New Contact Form Message</h1>
       
       <div class="info-grid">
         <div class="info-row">
@@ -153,22 +153,14 @@
           <div class="info-value">{{email}}</div>
         </div>
         <div class="info-row">
-          <div class="info-label">Painting Type:</div>
-          <div class="info-value">{{paintingType}}</div>
-        </div>
-        <div class="info-row">
-          <div class="info-label">Size Preference:</div>
-          <div class="info-value">{{size}}</div>
-        </div>
-        <div class="info-row">
-          <div class="info-label">Deadline:</div>
-          <div class="info-value">{{deadline}}</div>
+          <div class="info-label">Subject:</div>
+          <div class="info-value">{{subject}}</div>
         </div>
       </div>
       
-      <div class="description-section">
-        <div class="description-label">Description / Vision:</div>
-        <div class="description-box">{{description}}</div>
+      <div class="message-section">
+        <div class="message-label">Message:</div>
+        <div class="message-box">{{message}}</div>
       </div>
     </div>
     

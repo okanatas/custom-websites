@@ -95,23 +95,45 @@ export default function About() {
           
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
             <p>
-              I&apos;m a software developer and founder with expertise in building scalable SaaS platforms, 
-              fintech applications, and payment systems. My journey has been one of continuous learning and growth, 
-              evolving from a passion into a career dedicated to excellence and innovation.
+              I&apos;m a software developer and founder based in Toronto, with a passion for building 
+              scalable SaaS platforms and innovative solutions. Over the years, I&apos;ve founded and 
+              led multiple SaaS ventures, developed fintech payment systems, and created open-source 
+              tools that serve thousands of users.
             </p>
             
             <p>
-              <strong className="text-gray-900">My Approach:</strong> I believe in combining 
-              creativity with practical solutions. Whether it&apos;s bringing a vision to life or solving 
-              complex challenges, I approach each project with dedication, attention to detail, and 
-              a commitment to delivering exceptional results.
+              <strong className="text-gray-900">SaaS & Platform Development:</strong> I&apos;ve 
+              architected and built multi-application SaaS platforms serving diverse industries including 
+              healthcare, fitness, education, and hospitality. My work includes developing comprehensive 
+              booking systems, client portals, website builders, and analytics dashboards. I specialize 
+              in creating scalable microservices architectures, implementing multi-provider payment 
+              systems with Stripe Connect, and deploying containerized applications on AWS EKS with 
+              robust CI/CD pipelines.
             </p>
             
             <p>
-              <strong className="text-gray-900">What I Do:</strong> I specialize in creating work 
-              that matters. Through years of experience, I&apos;ve developed a unique perspective that 
-              allows me to adapt to different needs and challenges, always striving to exceed expectations 
-              and deliver value.
+              <strong className="text-gray-900">Fintech & Payment Systems:</strong> With extensive 
+              experience in fintech, I&apos;ve integrated numerous payment gateways and processors, 
+              ensuring PCI DSS compliance and implementing secure transaction processing. I&apos;ve 
+              worked with payment systems handling cross-border transactions, multi-currency processing, 
+              and fraud mitigation strategies, always prioritizing security and scalability.
+            </p>
+            
+            <p>
+              <strong className="text-gray-900">Full-Stack & Cloud Expertise:</strong> My technical 
+              expertise spans modern frontend frameworks (Next.js, React, TypeScript), backend 
+              development (Go, Node.js, Java/Spring Boot), and cloud infrastructure (AWS, Docker, 
+              Kubernetes). I&apos;ve also explored IoT solutions, building knowledge-based systems 
+              with remote database servers, and contributed to open-source mobile applications with 
+              100K+ downloads on Google Play.
+            </p>
+            
+            <p>
+              <strong className="text-gray-900">Current Focus:</strong> I&apos;m currently leading 
+              two SaaS platforms—a multi-application platform for service-based businesses and an 
+              NFC tags platform that enables seamless digital connections. Both projects reflect my 
+              commitment to creating solutions that solve real-world problems while maintaining high 
+              standards for code quality, user experience, and system reliability.
             </p>
           </div>
 

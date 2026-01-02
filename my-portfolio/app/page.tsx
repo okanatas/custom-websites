@@ -169,9 +169,12 @@ export default function Home() {
           <div className="text-center">
             <h2 className="text-3xl sm:text-4xl font-medium text-gray-900 mb-4">About Me</h2>
             <p className="text-gray-600 text-lg mb-4 leading-relaxed">
-              I&apos;m a software developer and founder with expertise in building scalable SaaS platforms, 
-              fintech applications, and payment systems. I specialize in full-stack development, cloud infrastructure, 
-              and creating secure, compliant solutions.
+              I&apos;m a software developer and founder based in Toronto, specializing in building 
+              scalable SaaS platforms and fintech solutions. I&apos;ve architected multi-application 
+              platforms serving diverse industries, developed secure payment systems with PCI DSS 
+              compliance, and created open-source tools with 100K+ downloads. My expertise spans 
+              full-stack development, cloud infrastructure (AWS, Docker, Kubernetes), and modern 
+              technologies including Next.js, React, TypeScript, Go, and Node.js.
             </p>
             <Link
               href="/about"
